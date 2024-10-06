@@ -8,7 +8,7 @@ import {
   PostList,
 } from "./_components/posts";
 
-export const runtime = "edge";
+//export const runtime = "edge";
 
 export default function HomePage() {
   // You can await this here if you don't want to show Suspense fallback below
@@ -21,6 +21,9 @@ export default function HomePage() {
           <h1 className="text-5xl font-extrabold tracking-tight sm:text-[5rem]">
             Create <span className="text-primary">T3</span> Turbo
           </h1>
+          <h2 className="text-center text-2xl font-bold tracking-tight">
+            with Next-Auth, Kysely and Prisma. 🚀
+          </h2>
           <AuthShowcase />
 
           <CreatePostForm />

@@ -5,6 +5,11 @@ node_modules
 .pnp
 .pnp.js
 
+# prisma generated files
+packages/db/prisma/migrations
+packages/db/prisma/enums.ts
+packages/db/prisma/types.ts
+
 # testing
 coverage
 

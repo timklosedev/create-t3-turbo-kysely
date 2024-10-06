@@ -31,11 +31,19 @@
     "//#clean": {
       "cache": false
     },
-    "push": {
+    "db:generate": {
       "cache": false,
       "interactive": true
     },
-    "studio": {
+    "db:push": {
+      "cache": false,
+      "interactive": true
+    },
+    "db:migrate": {
+      "cache": false,
+      "interactive": true
+    },
+    "db:studio": {
       "cache": false,
       "persistent": true
     },

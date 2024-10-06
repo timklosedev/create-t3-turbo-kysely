@@ -1,5 +1,8 @@
 # create-t3-turbo-kysely
 
+A robust and scalable starter template based on the T3 Stack, customized with Prisma-Kysely for database interactions. This template includes Next.js, Expo for cross-platform development, and tRPC for type-safe APIs, offering a powerful foundation for full-stack applications.
+
+![use-as-template](https://raw.githubusercontent.com/timklosedev/create-t3-turbo-kysely/refs/heads/main/screenshot.png)
 
 ## Installation
 
